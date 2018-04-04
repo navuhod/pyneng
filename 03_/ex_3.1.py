@@ -1,7 +1,7 @@
 # sample one line comments
-''' sample miltiline
-comments
-(may using "or') '''
+# ''' sample miltiline
+# comments
+# (may using "or') '''
 
 a = int(input("Enter number A: "))
 b = int(input("Enter number B: "))

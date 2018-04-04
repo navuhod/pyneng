@@ -10,9 +10,14 @@
 
 # строки то УПОРЯДОЧЕННЫЙ тип данных, позволяющий обращаться к символам в строке по номеру, начиная с нуля
 strok = 'абвгдежзиклмнопрстуфхцчшыэюя'
-print('пример строки набранной по-символьно с переменной "strok":', strok[17]+strok[-4], end=' ')
+print('пример строки набранной по-символьно с переменной strok="абвгдежзиклмнопрстуфхцчшыэюя":', strok[17]+strok[-4], end=' ')
 print(strok[12]+strok[8]+strok[9]+strok[8]+strok[-11]+strok[0], end=' ')
 print(strok[25]+strok[-11]+strok[13], end=' ')
 print(strok[-11]+strok[13]+strok[6]+strok[5], end=' ')
 print(strok[11]+strok[13]+strok[6]+strok[5]+strok[-5]+'ь')
-
+print()
+print('напечатанной вот таким "диким" способом: '), print('''print('пример строки набранной по-символьно с переменной strok="абвгдежзиклмнопрстуфхцчшыэюя":', strok[17]+strok[-4], end=' ')
+print(strok[12]+strok[8]+strok[9]+strok[8]+strok[-11]+strok[0], end=' ')
+print(strok[25]+strok[-11]+strok[13], end=' ')
+print(strok[-11]+strok[13]+strok[6]+strok[5], end=' ')
+print(strok[11]+strok[13]+strok[6]+strok[5]+strok[-5]+'ь')''')
