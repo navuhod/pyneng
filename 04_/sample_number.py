@@ -12,4 +12,4 @@ a = input('введите значение ')
 print(int(a), int(a, 2))
 # модуль math
 import math
-print('использование функции math ', end=''), print(math.sqrt(9), math.sqrt(10), math.factorial(3), math.pi, sep=' '+'_'*5+' ')
+print('использование функции math '), print(math.sqrt(9), math.sqrt(10), math.factorial(3), math.pi, sep='\n')
